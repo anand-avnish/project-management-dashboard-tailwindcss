@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../dist/output.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+        <title>Project Management Dashboard</title>
+    </head>
+    <body>
+        
+        <div class="flex flex-row font-sans">   <!-- Content Wrapper Starts-->
+
+            <div class="shrink bg-zinc-800 h-screen sticky top-0 left-0 text-white border-r-2 border-zinc-400">   <!-- Nav Bar Starts -->
+                <nav>
+                    <h1 class="m-3 text-2xl flex items-center"> <!-- Dashboard Title Starts-->
+                        <span class="material-symbols-outlined text-4xl p-2">
+                            dashboard
+                        </span>
+                        Dashboard
+                    </h1> <!-- Dashboard Title Ends-->
+
+                    <ul class="text-zinc-400">    <!-- Nav Menu Starts -->
+                        <li class="flex items-center pl-3 bg-zinc-700 border-l-2 border-amber-800 text-white">
+                            <span class="material-symbols-outlined text-xl m-2 text-amber-800">
+                                home
+                            </span>
+                            Home
+                        </li>
+
+                        <li class="flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                badge
+                            </span>
+                            Profile
+                        </li>
+
+                        <li class="flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                mode_comment
+                            </span>
+                            Messages
+                        </li>
+
+                        <li class="flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                schedule
+                            </span>
+                            History
+                        </li>
+
+                        <li class="flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                task
+                            </span>
+                            Tasks
+                        </li>
+
+                        <li class="flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                groups
+                            </span>
+                            Communities
+                        </li>
+
+                        <li class="mt-6 flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                settings
+                            </span>
+                            Settings
+                        </li>
+
+                        <li class="flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                help_center
+                            </span>
+                            Support
+                        </li>
+
+                        <li class="flex items-center pl-3 hover:bg-zinc-700 hover:border-l-2 hover:border-amber-800 hover:text-white">
+                            <span class="material-symbols-outlined text-xl m-2 hover:text-amber-800">
+                                verified_user
+                            </span>
+                            Privacy
+                        </li>
+
+                    </ul>   <!-- Nav Menu Ends -->
+
+                </nav>
+            </div>  <!-- Nav Bar Ends -->
+            
+            <div class="grow">   <!-- Content Starts -->
+
+                <header class="bg-zinc-800 text-zinc-400 text-sm border-b-2 border-zinc-400 sticky top-0">    <!-- Header Starts -->
+
+                    <div class="p-1 flex flex-row items-center flex-wrap justify-center">   <!-- Header Search Row Starts-->
+                        
+                        <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                            search
+                        </span>
+
+                        <div class="grow">
+                            <input type="text" label="search" title="search" class="bg-zinc-400 w-4/5 rounded-xl text-black pl-2">
+                        </div>
+
+                        <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                            notifications_active
+                        </span>
+
+                        <div class="flex flex-row items-center px-2">
+                            <img src="assets/profile_pic.jpg" alt="Profile Picture" class="w-7 h-7 rounded-2xl mr-2">
+                            <span class="text-white">
+                                Avnish Anand
+                            </span>
+                        </div>
+
+                    </div>   <!-- Header Search Row Ends-->
+
+                    <div class="p-1 flex flex-row items-center flex-wrap justify-center pb-2">   <!-- Header Actions Row Starts-->
+                        
+                        <img src="assets/profile_pic.jpg" alt="Profile Picture" class="w-11 h-11 rounded-3xl mx-3">
+
+                        <div class="grow">
+                            <span class="text-xs">Hi there,</span>
+                            <h3 class="text-white text-lg">Avnish Anand (@anand-avnish)</h3>
+                        </div>
+
+                        <div class="flex flex-row flex-wrap justify-around items-center">
+                            <button class="p-2 bg-zinc-700 border-zinc-400 border-2 w-20 rounded-3xl mr-2 hover:text-white hover:border-amber-800">New</button>
+                            <button class="p-2 bg-zinc-700 border-zinc-400 border-2 w-20 rounded-3xl mr-2 hover:text-white hover:border-amber-800">Upload</button>
+                            <button class="p-2 bg-zinc-700 border-zinc-400 border-2 w-20 rounded-3xl mr-2 hover:text-white hover:border-amber-800">Share</button>
+                        </div>
+
+                    </div>   <!-- Header Actions Row Ends-->
+
+                </header>   <!-- Header Ends -->
+
+                <main class="bg-zinc-900 flex flex-row flex-wrap text-zinc-400 p-4">   <!-- Main Content Starts -->
+
+                    <div class="w-2/3 min-w-min grow">   <!-- Project Section Starts -->
+
+                        <h3 class="text-white mb-2">Your Projects</h3>
+
+                        <div class="flex flex-row flex-wrap justify-around">   <!-- Project List Starts -->
+                            
+                            <div class="bg-zinc-800 p-2 border-l-8 border-indigo-600 rounded-lg w-5/12 min-w-min mx-2 grow mb-2">
+                                <h6 class="text-white mt-1 text-base">Super Cool Project</h6>
+                                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                <div class="mt-2 flex flex-row justify-end">
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        account_tree
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-zinc-800 p-2 border-l-8 border-indigo-600 rounded-lg w-5/12 min-w-min mx-2 grow mb-2">
+                                <h6 class="text-white mt-1 text-base">Less Cool Project</h6>
+                                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                <div class="mt-2 flex flex-row justify-end">
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        account_tree
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-zinc-800 p-2 border-l-8 border-indigo-600 rounded-lg w-5/12 min-w-min mx-2 grow mb-2">
+                                <h6 class="text-white mt-1 text-base">Impossible App</h6>
+                                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                <div class="mt-2 flex flex-row justify-end">
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        account_tree
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-zinc-800 p-2 border-l-8 border-indigo-600 rounded-lg w-5/12 min-w-min mx-2 grow mb-2">
+                                <h6 class="text-white mt-1 text-base">Easy Peasy App</h6>
+                                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                <div class="mt-2 flex flex-row justify-end">
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        account_tree
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-zinc-800 p-2 border-l-8 border-indigo-600 rounded-lg w-5/12 min-w-min mx-2 grow mb-2">
+                                <h6 class="text-white mt-1 text-base">Ad Blocker</h6>
+                                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                <div class="mt-2 flex flex-row justify-end">
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        account_tree
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-zinc-800 p-2 border-l-8 border-indigo-600 rounded-lg w-5/12 min-w-min mx-2 grow mb-2">
+                                <h6 class="text-white mt-1 text-base">Money Making App</h6>
+                                <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                <div class="mt-2 flex flex-row justify-end">
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        star
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        visibility
+                                    </span>
+                                    <span class="material-symbols-outlined text-sm m-2 hover:text-amber-800">
+                                        account_tree
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>  <!-- Project List Starts -->
+
+                    </div>   <!-- Project Section Ends -->
+
+                    <aside class="w-1/3 min-w-min grow flex flex-col content-between">     <!-- Side Content Starts -->
+
+                        <div class="mb-2">   <!-- Announcements Section Starts -->
+
+                            <h3 class="text-white mb-2">Announcements</h3>
+
+                            <div class="bg-zinc-800 p-2 rounded-lg min-w-min mx-2 grow mb-2">   <!-- Announcement List Starts -->
+                                <div class="border-b-2 border-zinc-400 pb-2">
+                                    <h6 class="text-white mt-1 text-base">Site Maintenance</h6>
+                                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                </div>
+
+                                <div class="border-b-2 border-zinc-400 pb-2">
+                                    <h6 class="text-white mt-1 text-base">Community Share Day</h6>
+                                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                </div>
+
+                                <div class="pb-2">
+                                    <h6 class="text-white mt-1 text-base">Updated Privacy Policy</h6>
+                                    <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vehicula neque sit amet tortor placerat, vel lacinia nibh tempus. Morbi id vehicula elit.</p>
+                                </div>
+
+                            </div>  <!-- Announcement List Ends -->
+
+                        </div>   <!-- Announcements Section Ends -->
+
+                        <div>   <!-- People Section Starts -->
+                            <h3 class="text-white mb-2">People</h3>
+
+                            <div class="bg-zinc-800 p-2 rounded-lg min-w-min mx-2 grow mb-2">   <!-- People List Starts -->
+
+                                <div class="pb-2 flex flex-row items-center my-3">
+                                    <img src="assets/profile_pic.jpg" alt="Profile Picture" class="w-8 h-8 rounded-2xl mr-2">
+                                    <h6 class="ml-1 text-base">@Carlo</h6>
+                                </div>
+
+                                <div class="pb-2 flex flex-row items-center my-3">
+                                    <img src="assets/profile_pic.jpg" alt="Profile Picture" class="w-8 h-8 rounded-2xl mr-2">
+                                    <h6 class="ml-1 text-base">@Jenny</h6>
+                                </div>
+
+                                <div class="pb-2 flex flex-row items-center mt-3">
+                                    <img src="assets/profile_pic.jpg" alt="Profile Picture" class="w-8 h-8 rounded-2xl mr-2">
+                                    <h6 class="ml-1 text-base">@Jaswanth</h6>
+                                </div>
+
+                            </div>  <!-- People List Ends -->
+
+                        </div>   <!-- People Section Ends -->
+
+                    </aside>     <!-- Side Content Ends -->
+
+                </main>   <!-- Main Content Ends -->
+
+            </div>  <!-- Content Ends -->
+
+        </div>  <!-- Content Wrapper Ends-->
+    </body>
+</html>
